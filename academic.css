@@ -1,0 +1,77 @@
+/* ===== ACADEMIC PAGE ===== */
+.academic-section {
+  margin-left: 220px; /* space for navbar */
+  padding: 50px 40px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* formal attractive font */
+  background: linear-gradient(135deg, #2c3e50, #34495e); /* medium-dark formal gradient */
+  color: #ecf0f1;
+}
+
+/* Page Title & Subtitle */
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ecf0f1;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #bdc3c7;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Academic Cards Container */
+.academic-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Academic Card */
+.academic-card {
+  background: #ffffff;
+  color: #2c3e50;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* consistent font */
+}
+
+.academic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.academic-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.academic-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #2c3e50;
+  line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .academic-section {
+    margin-left: 0;
+    padding: 50px 20px;
+  }
+
+  .academic-container {
+    grid-template-columns: 1fr;
+  }
+}

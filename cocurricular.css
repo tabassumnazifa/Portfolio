@@ -1,0 +1,79 @@
+/* ===== CO-CURRICULAR PAGE ===== */
+.cocurricular-section {
+  margin-left: 220px; /* space for vertical navbar */
+  padding: 80px 50px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* formal attractive font */
+  background: linear-gradient(135deg, #2c3e50, #34495e); /* same as Academic page */
+  color: #ecf0f1;
+}
+
+/* Page Title & Subtitle */
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ecf0f1; /* formal whiteish color */
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #bdc3c7; /* subtle light gray */
+  margin-bottom: 50px;
+}
+
+/* ===== ACTIVITIES CONTAINER ===== */
+.activities-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* ===== ACTIVITY CARD ===== */
+.activity-card {
+  flex: 1 1 300px;
+  background: #ffffff;
+  color: #2c3e50;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* consistent font */
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.activity-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #2c3e50; /* dark formal header */
+}
+
+.activity-card p {
+  font-size: 1rem;
+  color: #2c3e50;
+  margin: 8px 0;
+}
+
+.activity-card strong {
+  color: #222;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .cocurricular-section {
+    margin-left: 0;
+    padding: 50px 20px;
+  }
+
+  .activities-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
