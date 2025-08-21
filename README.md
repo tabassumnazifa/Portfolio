@@ -2,7 +2,7 @@
 ### 👩‍💻 Author: Nazifa Tabassum
 
 **simple static portfolio** to showcase my **projects, skills, and experience** in a clean and responsive design. Built with **HTML** and **CSS**. 
-## 🧩 Features
+## 🧩 Features:
 
 - 🌐 **Responsive Design** – Works on mobile, tablet, and desktop  
 - 🧭 **Navigation Bar** – Multiple options for easy navigation between sections  
@@ -12,12 +12,28 @@
 - 🏆 **Competitive Programming Section** – Highlight accounts like Codeforces, Codechef, AtCoder, etc.  
 - 🎨 **Clean & Modern Layout** – Minimalistic and visually appealing
 
-## 🛠 Technologies Used
+## 🛠 Technologies Used:
 
 - **HTML5**  
 - **CSS3**  
 - 🎨 Google Fonts (optional)
 # Here is the link to visit the portfolio: https://tabassumnazifa.github.io/Portfolio/
 
+## 📸 Project Screenshots
 
+The following screenshots demonstrate the layout and functionality of the portfolio website, providing a clear overview of its structure and features:
+### Home page:
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/home.png?raw=true)
+### Contact :
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/contact.png?raw=true)
+### Co curriculur:
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/curriculur.png?raw=true)
+### Competitive Programming
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/judge.png?raw=true)
+
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/contest.png?raw=true)
+### Project
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/project.png?raw=true)
+### Certificate
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/certificate.png?raw=true)
 
