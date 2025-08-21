@@ -1,7 +1,7 @@
 # 🌟 Personal Portfolio Website
 ### 👩‍💻 Author: Nazifa Tabassum
 
-**simple static portfolio** to showcase my **projects, skills, and experience** in a clean and responsive design. Built with **HTML** and **CSS**. 
+**Simple static portfolio** to showcase my **projects, skills, and experience** in a clean and responsive design. Built with **HTML** and **CSS**. 
 ## 🧩 Features:
 
 - 🌐 **Responsive Design** – Works on mobile, tablet, and desktop  
@@ -26,6 +26,8 @@ The following screenshots demonstrate the layout and functionality of the portfo
 ![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/home.png?raw=true)
 ### Contact :
 ![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/contact.png?raw=true)
+### Academic
+![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/academic.png?raw=true)
 ### Co curriculur:
 ![image alt](https://github.com/tabassumnazifa/Portfolio/blob/main/curriculur.png?raw=true)
 ### Competitive Programming
