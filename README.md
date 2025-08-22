@@ -6,8 +6,8 @@
 
 - 🌐 **Responsive Design** – Works on mobile, tablet, and desktop  
 - 🧭 **Navigation Bar** – Multiple options for easy navigation between sections  
-- 📂 **Projects Section** – Showcase your work with project names and GitHub links  
-- 📝 **About Me** – Share your bio and skills  
+- 📂 **Projects Section** – Showcased work with project names and GitHub links  
+- 📝 **About Me** – Bio and skills  
 - ✉️ **Contact Section** – Display contact info with multiple online accounts (Email, LinkedIn, GitHub, etc.)  
 - 🏆 **Competitive Programming Section** – Highlight accounts like Codeforces, Codechef, AtCoder, etc.  
 - 🎨 **Clean & Modern Layout** – Minimalistic and visually appealing
