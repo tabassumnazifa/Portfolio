@@ -1,45 +1,354 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nazifa Tabassum | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- ===== VERTICAL NAVBAR ===== -->
-  <nav class="vertical-nav">
-    <h1 class="logo">Nazifa</h1>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="academic.html">Academic</a></li>
-      <li><a href="cocurricular.html">Co-Curricular</a></li>
-      <li><a href="competitive.html">Competitive Programming</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="certifications.html">Certifications</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
-  <!-- ===== FRONT PAGE ===== -->
-  <section class="front-page">
-    <div class="front-content">
-      <!-- Text Section -->
-      <div class="profile-text">
-        <h2>Hi, I’m <span>Nazifa Tabassum</span></h2>
-        <p>
-          I am an aspiring Web Developer and Competitive Programmer, currently pursuing 
-          my B.Sc. in Computer Science and Engineering. I have strong skills in HTML, 
-          CSS, JavaScript, C++, C#, and .NET MVC. I am passionate about Competitive 
-          Programming and Web Development.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nazifa Tabassum - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header>
+    <nav>
+        <a href="#hero" class="logo">Nazifa Tabassum</a>
+
+        <ul class="nav-links">
+
+            <li><a href="#education">Education</a></li>
+            <li><a href="#problem-solving">Problem Solving</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+
+            <li class="dropdown">
+                <a href="#">More <i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#competitive-programming">Competitions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="hero">
+    <div class="container">
+
+        <h1>Nazifa Tabassum</h1>
+
+        <p class="subtitle">
+            Software Engineer | ASP.NET Developer | Competitive Programmer
         </p>
-      </div>
-      
-      <!-- Image Section -->
-      <div class="profile-image">
-        <img src="images/nazifa.jpg" alt="Nazifa Tabassum">
-      </div>
+
+        <p class="summary">
+            Computer Science and Engineering student focused on software development,
+            problem solving, and building scalable applications using modern technologies.
+            Passionate about competitive programming and system design.
+        </p>
+
+        <a href="#contact" class="btn">Get In Touch</a>
+
     </div>
-  </section>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education">
+    <div class="container">
+        <h2>Education</h2>
+
+        <div class="edu-item">
+            <div class="edu-left">
+                <h3>BSc in Computer Science & Engineering</h3>
+                <p>International University of Business Agriculture and Technology (IUBAT)</p>
+            </div>
+            <div class="edu-right">
+                <p>CGPA: 3.65</p>
+                <p>2022 - 2026</p>
+            </div>
+        </div>
+
+        <div class="edu-item">
+            <div class="edu-left">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p>Government K.C College, Jhenaidah</p>
+            </div>
+            <div class="edu-right">
+                <p>GPA: 5.00</p>
+                <p>2020</p>
+            </div>
+        </div>
+
+        <div class="edu-item">
+            <div class="edu-left">
+                <h3>Secondary School Certificate (SSC)</h3>
+                <p>Jhenaidah Government Girls High School</p>
+            </div>
+            <div class="edu-right">
+                <p>GPA: 5.00</p>
+                <p>2018</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROBLEM SOLVING ================= -->
+<section id="problem-solving">
+    <div class="container">
+
+        <h2>Problem Solving</h2>
+
+        <div class="stats">
+
+            <div class="stat-item">
+                <h3>Codeforces</h3>
+                <p>Handle: L_U_N_A</p>
+
+                <a href="https://codeforces.com/profile/L_U_N_A" class="btn-small">View Profile</a>
+            </div>
+             <div class="stat-item">
+                <h3>Toph</h3>
+                <p>Handle: n_azifa</p>
+
+                <a href="https://toph.co/u/n_azifa" class="btn-small">View Profile</a>
+            </div>
+             <div class="stat-item">
+                <h3>LeetCode</h3>
+                <p>Handle: n_azifa</p>
+
+                <a href="https://leetcode.com/u/n_azifa/" class="btn-small">View Profile</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= COMPETITIVE ================= -->
+<section id="competitive-programming">
+    <div class="container">
+
+        <h2>Competitive Programming</h2>
+
+        <div class="cp-grid">
+
+            <div class="cp-card">
+                <div class="cp-content">
+                    <h4>ICPC Dhaka Regional 2024</h4>
+                    <p>Team name: IUBAT_Wrong_Answer</p>
+                     <a href="https://icpc.global/regionals/finder/Dhaka-2025/standings" class="btn-small">View Rank</a>
+                </div>
+            </div>
+
+           <div class="cp-card">
+                <div class="cp-content">
+                    <h4>UAP Inter University Collaborative Programming Contest 1.0 (Junior)</h4>
+                    <p>Team name: IUBAT_Trio</p>
+                     <a href="https://toph.co/c/uap-inter-university-collaborative-1-0-junior/standings" class="btn-small">View Rank</a>
+                </div>
+            </div>
+            <div class="cp-card">
+                <div class="cp-content">
+                    <h4>BUBT Inter University Collaborative Programming Contest-2025</h4>
+                    <p>Team name: IUBAT_INT_MAX</p>
+                     <a href="https://toph.co/c/bubt-inter-university-collaborative/standings" class="btn-small">View Rank</a>
+                </div>
+            </div>
+            <div class="cp-card">
+                <div class="cp-content">
+                    <h4>Battle of Intellects - Spring 2025 - IUBAT</h4>
+                    <p>Indivisual Contest</p>
+                     <a href="https://toph.co/contests/training/eq2nk3p/standings" class="btn-small">View Rank</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+    <div class="container">
+
+        <h2>Skills</h2>
+
+        <div class="skill-category">
+
+            <h3>Programming Languages</h3>
+
+            <div class="skill-list">
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">Dart</span>
+                <span class="skill-tag">JavaScript</span>
+            </div>
+
+        </div>
+
+        <div class="skill-category">
+
+            <h3>Frameworks</h3>
+
+            <div class="skill-list">
+                <span class="skill-tag">ASP.NET MVC</span>
+                <span class="skill-tag">Flutter</span>
+            </div>
+
+        </div>
+
+        <div class="skill-category">
+
+            <h3>Core Areas</h3>
+
+            <div class="skill-list">
+                <span class="skill-tag">Data Structures</span>
+                <span class="skill-tag">Algorithms</span>
+                <span class="skill-tag">OOP</span>
+                <span class="skill-tag">Problem Solving</span>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+    <div class="container">
+
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>LifeNet-Assist</h3>
+            <p>ASP.NET MVC based Smart Volunteer & Emergency Response System.</p>
+             <a href="https://github.com/tabassumnazifa/LifeNet-Assist" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+        </div>
+
+       <div class="project-card">
+            <h3>Online Flower and Gift Shop</h3>
+            <p>ASP.NET MVC based E-Commerce System.</p>
+             <a href="https://github.com/tabassumnazifa/FlowerGiftShop" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+        </div>
+
+
+       <div class="project-card">
+            <h3>Real Time Chat Box</h3>
+            <p>Real-time web-based chat application built using ASP.NET Core MVC, SignalR, and ASP.NET Identity.</p>
+             <a href="https://github.com/tabassumnazifa/Real-Time-Chat-Box" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+        </div>
+
+        <div class="project-card">
+            <h3>Real Time Mail Verification</h3>
+            <p> Real-time email verification using Gmail SMTP.</p>
+             <a href="https://github.com/tabassumnazifa/Real-Time-Mail-Varification" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+        </div>
+
+
+    </div>
+</section>
+
+<!-- ================= Experiences ================= -->
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+    <div class="container">
+
+        <h2>Experience</h2>
+
+        <div class="experience-card">
+
+            <h3>Software Engineer Intern</h3>
+            <p class="company">Drive Safe</p>
+
+            <p class="duration">Present</p>
+
+            <p class="description">
+                Currently working as a Software Engineer Intern at Drive Safe, focusing on learning and developing
+                mobile applications using Dart and Flutter. Gaining hands-on experience in UI development, state
+                management, API integration, and building scalable cross-platform applications.
+            </p>
+
+            <div class="tech-stack">
+                <span>Dart</span>
+                <span>Flutter</span>
+                <span>Mobile App Development</span>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+    <div class="container">
+
+        <h2>Contact</h2>
+
+        <div class="contact-grid">
+
+            <div class="contact-item">
+                <h3>Email</h3>
+                <a href="mailto:tnazifa003@gmail.com">
+                    tnazifa003@gmail.com
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <h3>GitHub</h3>
+                <a href="https://github.com/tabassumnazifa" target="_blank">
+                    github.com/tabassumnazifa
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/nazifa-tabassum-93521026a/" target="_blank">
+                    linkedin.com/in/nazifa-tabassum
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container" style="text-align:center; padding:2rem 0; color:#888;">
+        Built with dedication and clean code.
+    </div>
+</footer>
+
 </body>
 </html>
+```
